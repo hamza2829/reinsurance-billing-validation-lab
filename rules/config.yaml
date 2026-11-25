@@ -1,0 +1,11 @@
+allowed_currencies: [EUR, USD, GBP, CHF]
+tolerances:
+  total_abs: 0.01          # balance vs premium - claims - commission
+  reconciliation_abs: 1.00 # statement claims vs claims system
+  commission_abs: 0.05
+  commission_rel: 0.005    # share of |premium|
+deadlines:
+  grace_days: 0
+duplicates:
+  keys: [statement_id, treaty_id, partner_id, period]
+mandatory_fields: [line_id, statement_id, treaty_id, partner_id, period, currency, premium, statement_date, due_date]

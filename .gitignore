@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.coverage
+data/raw/
+extract/out/
+report/out/
+.pytest_cache/
