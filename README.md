@@ -33,11 +33,10 @@ pytest --cov
 | Injected defects (8 types x 5) | 40 |
 | Defects found | 40 (recall 1.0) |
 | False positives | 0 (precision 1.0) |
-| Validation runtime | 0.244 s (full pipeline 1.96 s) |
-| Tests | 58 pytest tests |
-| Coverage | see CI run (gate: 90 %) |
+| Validation runtime | 0.044 s (CI, Ubuntu) |
+| Tests | 58 passed |
+| Coverage | 98.86 % (gate 90 %) |
 
-Numbers above come from a local run of the pipeline. Test pass status and coverage are taken from GitHub Actions; the CI job fails below 90 % coverage.
 
 ## Rules
 
